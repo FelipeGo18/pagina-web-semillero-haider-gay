@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
-import logoUrl from '../assets/logo2.png'
+import logoUrl from '../assets/logo8.png'
 import LoginModal from './LoginModal'
 
 function Icon({ title, children, onClick, ariaExpanded, ariaControls }) {
@@ -111,7 +111,7 @@ export default function Header() {
 
   return (
     <header className="header">
-  <Logo size={48} />
+  <Logo size={63} />
       <SearchBar />
       <nav className="actions" aria-label="Acciones">
         <Icon title="Idioma" ariaExpanded={open==='lang'} ariaControls="lang-menu" onClick={() => toggle('lang')}>
